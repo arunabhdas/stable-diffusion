@@ -95,6 +95,12 @@ After [obtaining the `stable-diffusion-v1-*-original` weights](#weights), link t
 mkdir -p models/ldm/stable-diffusion-v1/
 ln -s <path/to/model.ckpt> models/ldm/stable-diffusion-v1/model.ckpt 
 ```
+
+Install diffusers
+```
+pip install diffusers==0.12.1
+```
+
 and sample with
 ```
 python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse" --plms 
