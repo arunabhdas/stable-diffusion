@@ -95,6 +95,10 @@ After [obtaining the `stable-diffusion-v1-*-original` weights](#weights), link t
 mkdir -p models/ldm/stable-diffusion-v1/
 ln -s <path/to/model.ckpt> models/ldm/stable-diffusion-v1/model.ckpt 
 ```
+Example
+```
+ln -s /home/ec2-user/sd-v1-4.ckpt models/ldm/stable-diffusion-v1/model.ckpt
+```
 
 Install diffusers
 ```
